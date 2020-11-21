@@ -1,4 +1,4 @@
-@media (min-width: 550px) {
+@media (min-width: 550px) and (max-width: 900px) {
     .container {
         width: 100%;
         display: grid;
@@ -35,6 +35,7 @@
         grid-row: 2/3;
         text-align: center;
         place-self: center;
+        
     }
 
     .services {
@@ -43,6 +44,7 @@
         grid-template-rows: 50px 100px;
         grid-column: 2/3;
         grid-row: 3/4;
+        grid-gap: 5px;
     }
         .services > .services3 {
             display: none;
@@ -75,6 +77,7 @@
         grid-template-rows: 50px 100px;
         grid-column: 2/3;
         grid-row: 4/5;
+        grid-gap: 5px;
     }
 
         .testimonials > .testimonials1 {
@@ -114,5 +117,13 @@
     }
 
     nav {
+        display: none;
+    }
+
+    .container > .soc {
+        display: none;
+    }
+
+    .ads {
         display: none;
     }

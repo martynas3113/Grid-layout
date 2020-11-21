@@ -86,4 +86,8 @@
         text-align: center;
         place-self: center
     }
+
+    .ads {
+        display: none;
+    }
 }
