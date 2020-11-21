@@ -17,7 +17,7 @@
     header {
         grid-column: 2/3;
         justify-self: center;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         place-self: center
 
     }
@@ -29,18 +29,36 @@
         grid-column: 2/3;
         text-align: center;
         justify-self: center;
-        place-self: center
+        place-self: center;
+        background-color: blue;
     }
 
     .services {
         display: grid;
         grid-column: 2/3;
         /* justify-self:center */
-        margin-top: 50px;
+        /* margin-top: 50px; */
         /* margin-left: calc(50% - 150px); */
         text-align: center;
-        
+        background-color: green;
     }
+
+        .services > span {
+            place-self: center
+        }
+
+        .services1 {
+            place-self: center
+        }
+
+        .services2 {
+            place-self: center
+        }
+
+        .services3 {
+            place-self: center
+        }
+
         
 
        
@@ -50,7 +68,8 @@
         grid-row: 4/5;
         justify-self: center;
         text-align: center;
-        place-self: center
+        place-self: center;
+        background-color: yellow;
         
     }
 
@@ -59,6 +78,7 @@
         grid-column: 2/3;
         grid-row: 5/6;
         text-align: center;
+        background-color: red
     }
 
         .testimonials > span {
@@ -77,14 +97,16 @@
         grid-column: 2/3;
         grid-row: 6/7;
         text-align: center;
-        place-self: center
+        place-self: center;
+        background-color: pink;
     }
 
     nav {
         grid-column: 2/3;
         grid-row: 7/8;
         text-align: center;
-        place-self: center
+        place-self: center;
+        background-color: coral;
     }
 
     .ads {
