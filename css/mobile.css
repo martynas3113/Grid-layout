@@ -9,6 +9,7 @@
     grid-template-rows: 50px 100px 500px 100px 400px 100px 100px;
     grid-gap: 20px;
     
+    
 ;
     
     
@@ -18,18 +19,20 @@
     header {
         grid-column: 2/3;
         justify-self: center;
-        /* margin-top: 10px; */
         place-self: center;
         width: 100%;
         text-align: center;
-        position: fixed;
+        position: sticky;
         background-color: #777;
-        top: 20px;
+        top: 0;
+        
+        
         
        }
 
        header > span {
         place-self: center;
+        
        }
         .soc {
             display: none;
@@ -48,9 +51,6 @@
     .services {
         display: grid;
         grid-column: 2/3;
-        /* justify-self:center */
-        /* margin-top: 50px; */
-        /* margin-left: calc(50% - 150px); */
         text-align: center;
         background-color: green;
         grid-row: 3/4;
