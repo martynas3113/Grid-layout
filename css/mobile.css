@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 300px 1fr;
     grid-template-rows: 50px 100px 500px 100px 400px 100px 100px;
     grid-gap: 20px;
+    
 ;
     
     
@@ -18,9 +19,18 @@
         grid-column: 2/3;
         justify-self: center;
         /* margin-top: 10px; */
-        place-self: center
+        place-self: center;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        background-color: #777;
+        top: 20px;
+        
+       }
 
-    }
+       header > span {
+        place-self: center;
+       }
         .soc {
             display: none;
         }
@@ -31,6 +41,8 @@
         justify-self: center;
         place-self: center;
         background-color: blue;
+        grid-row: 2/3;
+       
     }
 
     .services {
@@ -41,6 +53,7 @@
         /* margin-left: calc(50% - 150px); */
         text-align: center;
         background-color: green;
+        grid-row: 3/4;
     }
 
         .services > span {
