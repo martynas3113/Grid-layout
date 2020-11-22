@@ -5,5 +5,5 @@ Project to learn Grid layout. Project was made responsive for 3 devices. (Mobile
 
 Features :
 
--Responsive design
+-Responsive design <br>
 -Fixed header on mobile version
